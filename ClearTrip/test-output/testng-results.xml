@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37865" started-at="2020-09-24T08:31:44Z" finished-at="2020-09-24T08:32:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37865" started-at="2020-09-24T08:31:44Z" finished-at="2020-09-24T08:32:22Z">
+      <class name="testscript.TestScript">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testscript.TestScript@26653222]" name="beforeTest" is-config="true" duration-ms="19890" started-at="2020-09-24T14:01:44Z" finished-at="2020-09-24T14:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscript.TestScript@26653222]" name="test" duration-ms="3042" started-at="2020-09-24T14:02:06Z" data-provider="testdata" finished-at="2020-09-24T14:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[September 28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[October 14 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testscript.TestScript@26653222]" name="afterTest" is-config="true" duration-ms="13003" started-at="2020-09-24T14:02:09Z" finished-at="2020-09-24T14:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testscript.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
